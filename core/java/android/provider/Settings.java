@@ -5248,6 +5248,13 @@ public final class Settings {
         public static final String ALERT_SLIDER_SILENT_MODE = "alert_slider_silent_mode";
 
         /**
+         * Whether to show media album art on keyguard
+         * @hide
+         */
+        @Readable
+        public static final String KEYGAURD_MEDIA_ART = "keygaurd_media_art";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
